@@ -1,0 +1,42 @@
+{
+    "type": "instance",
+    "class_path": "autocti.model.model_util.CTI1D",
+    "arguments": {
+        "ccd": {
+            "type": "instance",
+            "class_path": "arcticpy.ccd.CCDPhase",
+            "arguments": {
+                "full_well_depth": 200000.0,
+                "well_notch_depth": 0.0,
+                "well_fill_power": 0.58,
+                "first_electron_fill": 0.0
+            }
+        },
+        "trap_list": {
+            "type": "list",
+            "values": [
+                {
+                    "type": "instance",
+                    "class_path": "arcticpy.traps.TrapInstantCapture",
+                    "arguments": {
+                        "density": 5.0,
+                        "release_timescale": 1.25,
+                        "fractional_volume_none_exposed": 0.0,
+                        "fractional_volume_full_exposed": 0.0
+                    }
+                },
+                {
+                    "type": "instance",
+                    "class_path": "arcticpy.traps.TrapInstantCapture",
+                    "arguments": {
+                        "density": 10.0,
+                        "release_timescale": 4.4,
+                        "fractional_volume_none_exposed": 0.0,
+                        "fractional_volume_full_exposed": 0.0
+                    }
+                }
+            ]
+        },
+        "pixel_bounce_list": null
+    }
+}

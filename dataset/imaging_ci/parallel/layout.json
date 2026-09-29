@@ -1,0 +1,101 @@
+{
+    "type": "instance",
+    "class_path": "autocti.charge_injection.layout.Layout2DCI",
+    "arguments": {
+        "serial_prescan": {
+            "type": "instance",
+            "class_path": "autoarray.layout.region.Region2D",
+            "arguments": {
+                "region": {
+                    "type": "tuple",
+                    "values": [
+                        0,
+                        30,
+                        0,
+                        3
+                    ]
+                }
+            }
+        },
+        "serial_overscan": {
+            "type": "instance",
+            "class_path": "autoarray.layout.region.Region2D",
+            "arguments": {
+                "region": {
+                    "type": "tuple",
+                    "values": [
+                        0,
+                        30,
+                        26,
+                        30
+                    ]
+                }
+            }
+        },
+        "parallel_overscan": {
+            "type": "instance",
+            "class_path": "autoarray.layout.region.Region2D",
+            "arguments": {
+                "region": {
+                    "type": "tuple",
+                    "values": [
+                        26,
+                        30,
+                        3,
+                        26
+                    ]
+                }
+            }
+        },
+        "electronics": null,
+        "region_list": {
+            "type": "list",
+            "values": [
+                {
+                    "type": "instance",
+                    "class_path": "autoarray.layout.region.Region2D",
+                    "arguments": {
+                        "region": {
+                            "type": "tuple",
+                            "values": [
+                                2,
+                                8,
+                                3,
+                                26
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "instance",
+                    "class_path": "autoarray.layout.region.Region2D",
+                    "arguments": {
+                        "region": {
+                            "type": "tuple",
+                            "values": [
+                                14,
+                                20,
+                                3,
+                                26
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "shape_2d": {
+            "type": "tuple",
+            "values": [
+                30,
+                30
+            ]
+        },
+        "original_roe_corner": {
+            "type": "tuple",
+            "values": [
+                1,
+                0
+            ]
+        }
+    }
+}
