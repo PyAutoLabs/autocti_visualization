@@ -1,0 +1,39 @@
+{
+    "type": "instance",
+    "class_path": "autocti.clocker.one_d.Clocker1D",
+    "arguments": {
+        "window_stop": -1,
+        "prune_frequency": 20,
+        "roe": {
+            "type": "instance",
+            "class_path": "arcticpy.roe.ROE",
+            "arguments": {
+                "pixel_bounce_omega": 1.0,
+                "overscan_start": -1,
+                "prescan_offset": 0,
+                "force_release_away_from_readout": true,
+                "pixel_bounce_gamma": 1.0,
+                "empty_traps_for_first_transfers": false,
+                "empty_traps_between_columns": true,
+                "dwell_times": {
+                    "type": "ndarray",
+                    "array": [
+                        1.0
+                    ],
+                    "dtype": "float64"
+                },
+                "pixel_bounce_kv": 0.0,
+                "pixel_bounce_kA": 0.0,
+                "use_integer_express_matrix": false
+            }
+        },
+        "time_start": 0,
+        "prune_n_electrons": 1e-18,
+        "verbosity": 0,
+        "allow_negative_pixels": 1,
+        "window_start": 0,
+        "iterations": 5,
+        "time_stop": -1,
+        "express": 5
+    }
+}

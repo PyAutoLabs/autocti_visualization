@@ -1,0 +1,56 @@
+{
+    "type": "instance",
+    "class_path": "autocti.layout.one_d.Layout1D",
+    "arguments": {
+        "shape_1d": {
+            "type": "tuple",
+            "values": [
+                50
+            ]
+        },
+        "overscan": {
+            "type": "instance",
+            "class_path": "autoarray.layout.region.Region1D",
+            "arguments": {
+                "region": {
+                    "type": "tuple",
+                    "values": [
+                        45,
+                        50
+                    ]
+                }
+            }
+        },
+        "prescan": {
+            "type": "instance",
+            "class_path": "autoarray.layout.region.Region1D",
+            "arguments": {
+                "region": {
+                    "type": "tuple",
+                    "values": [
+                        0,
+                        5
+                    ]
+                }
+            }
+        },
+        "region_list": {
+            "type": "list",
+            "values": [
+                {
+                    "type": "instance",
+                    "class_path": "autoarray.layout.region.Region1D",
+                    "arguments": {
+                        "region": {
+                            "type": "tuple",
+                            "values": [
+                                5,
+                                25
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

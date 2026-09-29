@@ -1,0 +1,74 @@
+{
+    "type": "instance",
+    "class_path": "autocti.clocker.two_d.Clocker2D",
+    "arguments": {
+        "serial_prune_n_electrons": 1e-18,
+        "serial_express": 0,
+        "serial_time_start": 0,
+        "parallel_poisson_traps": false,
+        "iterations": 5,
+        "parallel_fast_mode": true,
+        "parallel_prune_n_electrons": 1e-18,
+        "serial_window_offset": 0,
+        "parallel_window_offset": 0,
+        "parallel_window_stop": -1,
+        "parallel_prune_frequency": 0,
+        "serial_prune_frequency": 0,
+        "serial_window_start": 0,
+        "verbosity": 0,
+        "parallel_roe": {
+            "type": "instance",
+            "class_path": "arcticpy.roe.ROEChargeInjection",
+            "arguments": {
+                "prescan_offset": 0,
+                "dwell_times": {
+                    "type": "ndarray",
+                    "array": [
+                        1.0
+                    ],
+                    "dtype": "float64"
+                },
+                "empty_traps_between_columns": true,
+                "force_release_away_from_readout": true,
+                "pixel_bounce_kA": 0.0,
+                "overscan_start": -1,
+                "pixel_bounce_omega": 1.0,
+                "pixel_bounce_kv": 0.0,
+                "use_integer_express_matrix": false,
+                "pixel_bounce_gamma": 1.0
+            }
+        },
+        "allow_negative_pixels": 1,
+        "parallel_window_start": 0,
+        "parallel_express": 5,
+        "serial_roe": {
+            "type": "instance",
+            "class_path": "arcticpy.roe.ROE",
+            "arguments": {
+                "prescan_offset": 0,
+                "dwell_times": {
+                    "type": "ndarray",
+                    "array": [
+                        1.0
+                    ],
+                    "dtype": "float64"
+                },
+                "empty_traps_between_columns": true,
+                "force_release_away_from_readout": true,
+                "pixel_bounce_kA": 0.0,
+                "overscan_start": -1,
+                "pixel_bounce_omega": 1.0,
+                "pixel_bounce_kv": 0.0,
+                "use_integer_express_matrix": false,
+                "empty_traps_for_first_transfers": false,
+                "pixel_bounce_gamma": 1.0
+            }
+        },
+        "serial_time_stop": -1,
+        "parallel_time_start": 0,
+        "poisson_seed": -1,
+        "serial_fast_mode": null,
+        "serial_window_stop": -1,
+        "parallel_time_stop": -1
+    }
+}

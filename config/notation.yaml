@@ -1,0 +1,55 @@
+# The notation configs define the labels of every model parameter and its derived quantities, which are used when
+# visualizing results (for example labeling the axis of the PDF triangle plots output by a non-linear search).
+
+
+# label: The label given to the each parameter, for plots like PDF corner plots.
+
+# For example, if `centre=x`, the plot axis will be labeled 'x'.
+
+
+# superscript: the superscript used on certain plots that show the results of different model-components.
+
+# For example, if `TrapInstantCapture=s`, plots where the parameters of the TrapInstantCapture model-component have superscript `s`.
+
+label:
+  label:
+    density: \rho
+    full_well_depth: h
+    gamma: \gamma
+    ka: ka
+    kv: kv
+    omega: \omega
+    release_timescale: \tau
+    release_timescale_sigma: \sigma
+    scale_factor: \omega
+    well_fill_alpha: \alpha
+    well_fill_gamma: \gamma
+    well_fill_power: \beta
+    well_notch_depth: d
+  superscript:
+    CCDComplex: ccd
+    CCDPhase: ccd
+    HyperCINoiseScalar: H
+    PixelBounce: pb
+    TrapInstantCapture: s
+    TrapInstantCaptureContinuum: sc
+
+# label_format: The format certain parameters are output as in output files like the `model.results` file.
+
+# For example, if  `density={:.2f}`, the format of the centre parameter in results files will use this Python format.
+
+label_format:
+  format:
+    density: '{:.2f}'
+    full_well_depth: '{:.2f}'
+    gamma: '{:.2f}'
+    ka: '{:.2f}'
+    kv: '{:.2f}'
+    omega: '{:.2f}'
+    release_timescale: '{:.2f}'
+    release_timescale_sigma: '{:.2f}'
+    scale_factor: '{:.2f}'
+    well_fill_alpha: '{:.2f}'
+    well_fill_gamma: '{:.2f}'
+    well_fill_power: '{:.2f}'
+    well_notch_depth: '{:.2f}'
