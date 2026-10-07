@@ -89,7 +89,12 @@ critiques are filed with the `eyes-critique` label.
 - [autocti_workspace_test](https://github.com/PyAutoLabs/autocti_workspace_test) — plot-API
   integration tests the fit-without-search recipe here comes from.
 
-## Community & support
+## Community & Contributing
 
-Questions, figure bugs and visualization ideas go to the
+Questions, help with your code or your analysis, and ideas: the
 [PyAutoLabs Discussions](https://github.com/orgs/PyAutoLabs/discussions).
+Bug reports with a reproducer (a snippet, the traceback, your versions):
+an issue on the library's tracker. The Slack is for collaborators, by
+invitation.
+
+Community-built tools, tutorials and how to contribute are on the [**PyAutoLens** community page](https://pyautolens.readthedocs.io/en/latest/general/community.html).
