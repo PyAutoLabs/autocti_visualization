@@ -20,3 +20,6 @@ venv/
 scripts/**/images/**/*.fits
 scripts/**/images/**/*.csv
 scripts/**/images/**/*.json
+
+# Library main checkouts made by render.yml (mains mode)
+_libs/
