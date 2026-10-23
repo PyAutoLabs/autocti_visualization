@@ -2,7 +2,7 @@
 # the PyAutoEyes dashboard. Do not edit by hand: rerun
 # `bash gallery/gallery_run.sh --all` (or `python gallery/gallery_build.py`).
 schema: 1
-generated: '2026-09-29'
+generated: '2026-10-23'
 rendered_with:
   autocti: 2024.11.13.2
   autoarray: 2026.8.17.1
@@ -13,809 +13,809 @@ figures:
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: dataset
-  bytes: 29467
-  sha256: 0a60871b326e2dc9f718791ce009be369f61054eeb56aa4780d177dad4d4853b
+  bytes: 27460
+  sha256: a441c7e09803af3ec2b1f622ad8338e16bc02f6c93f1259e82a7c01cb055004a
 - file: scripts/dataset_1d/images/visualization/dataset/subplot_data_list_eper.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: dataset
-  bytes: 43062
-  sha256: 4394b73a1a25a70a68bf5f28da44e779b6b9b773e900e4edbd3c03ca12f22ef5
+  bytes: 53802
+  sha256: f7dec736b5b219797fb5168d425d9ab08f7a6013c6779a99d03c51539e2106c3
 - file: scripts/dataset_1d/images/visualization/dataset/subplot_data_list_fpr.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: dataset
-  bytes: 43622
-  sha256: 54e2b05a71ec80b33ea91ef3f82f729d67691ccd0c3b7e89df7b39d5b4c1d923
+  bytes: 43149
+  sha256: 10ea34b7823b42782b70eb14a3fdd0578710f65314ed1b54e95e00d8a96feda5
 - file: scripts/dataset_1d/images/visualization/dataset/subplot_data_logy_list_eper.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: dataset
-  bytes: 32353
-  sha256: d79b32d065d65e81d859deb1d0b66db027d85288a43011cd2f8ef0029b279ee6
+  bytes: 31983
+  sha256: dec8b7610a44cddffaf6611e2447aeb1e938f1781a08fea285869cad0e4d418c
 - file: scripts/dataset_1d/images/visualization/dataset/subplot_data_logy_list_fpr.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: dataset
-  bytes: 54528
-  sha256: 305ba1552ef8ba419d83f080fa3c99b38c167bde6bdf2f764d10d5233820cd76
+  bytes: 61961
+  sha256: 8c590c83324d4f3886d889fbc63f4f5386686ad63a30eaedce9b10c1f9ce4823
 - file: scripts/dataset_1d/images/visualization/direct/chi_squared_map.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: direct
-  bytes: 35451
-  sha256: 1cd4544075a0c5aaa3e1d3dfc840d51ab83e14c61b2f659ec07f0be2ad6eb15d
+  bytes: 37034
+  sha256: 313bacf52c944fcc9360092af565bd3bc410d7d1ea2b7a8dcb5fb9f8882accef
 - file: scripts/dataset_1d/images/visualization/direct/noise_map.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: direct
-  bytes: 12348
-  sha256: 9f48797760f379425c51097a0b12308125e6883bffa608fb16c94edf2251aacd
+  bytes: 13987
+  sha256: 5c7765e1133d1a053869883daa70152ae3b2d2224b30503417469c652eac8351
 - file: scripts/dataset_1d/images/visualization/direct/normalized_residual_map.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: direct
-  bytes: 38118
-  sha256: 8601c445e3f1627f10b372ecd7b07e28049baa67334800e150b2fab19295e7f1
+  bytes: 39583
+  sha256: c91cb90053907ee338f54ab08c7d50466aa75ab47f6ff555a89528614b9500e1
 - file: scripts/dataset_1d/images/visualization/direct/post_cti_data.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: direct
-  bytes: 18347
-  sha256: 0ff7d9070a0bc69a5dd8995b2f823fcb5c0cd27541dce16d13153fbfc160c589
+  bytes: 17428
+  sha256: 6f805d2fc32bac688abd6f27bc65b5125941777145c1c6de7e524d204c54dde9
 - file: scripts/dataset_1d/images/visualization/direct/pre_cti_data.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: direct
-  bytes: 17741
-  sha256: 6f8f36315a4b1956b4f5bd5fe501003eaa170125c2c35183946a2b54d7f03292
+  bytes: 16922
+  sha256: 7ccb400eb91e971b8abc55f5b9a8765610107e49760632c242006909fef6bf34
 - file: scripts/dataset_1d/images/visualization/direct/signal_to_noise_map.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: direct
-  bytes: 19659
-  sha256: a5e05ba57f8e29bed0f999a16c0bfa5e13789c48d6fb3963719a0c577bf54763
+  bytes: 19175
+  sha256: f4f9754aae81ed15aa55a864464f41a312e5c36718431fedded2f02ffed81a1d
 - file: scripts/dataset_1d/images/visualization/fit_dataset_combined/subplot_chi_squared_map_list.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: fit_dataset_combined
-  bytes: 92306
-  sha256: 5d72cd657d7275dfa3c6003e640976d24c6479902049d6df311026fa7df56b79
+  bytes: 95019
+  sha256: d3ea90e81b2f930ca7cad8a2f9dbae60396fbdf1db6c8cb66061d9b251b0aceb
 - file: scripts/dataset_1d/images/visualization/fit_dataset_combined/subplot_data_list.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: fit_dataset_combined
-  bytes: 44059
-  sha256: 9327c2f6c01c937389edf1eae115060de13032ea72ffefb2107d753025ec1f2a
+  bytes: 42592
+  sha256: 7bfc5bf759373556edbe09d7c5af0ef9bf9b7de36a945afb4a73811e7f06dae7
 - file: scripts/dataset_1d/images/visualization/fit_dataset_combined/subplot_data_list_eper.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: fit_dataset_combined
-  bytes: 59822
-  sha256: c8ba9c8f2abca2065a0f0506c05e7ad2c250f82f856abec907d1aceb245c36f4
+  bytes: 70024
+  sha256: ffa1fbd2cb35f34f69bff5ae262e3f79d097d0534c0ff3aee9766e2c5633fb6f
 - file: scripts/dataset_1d/images/visualization/fit_dataset_combined/subplot_data_list_fpr.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: fit_dataset_combined
-  bytes: 49415
-  sha256: 015f09c939071557c123b294b4e3db7986276ce53c7b64f38fb7d029e74f98e0
+  bytes: 49031
+  sha256: ed4932961dc29f7320004d3df6709b701de364a0d6525077b9d4cb79578cb4b3
 - file: scripts/dataset_1d/images/visualization/fit_dataset_combined/subplot_data_logy_list_eper.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: fit_dataset_combined
-  bytes: 58040
-  sha256: beb62367360f2c60849a91efabb24c079a38325703c1ecda11cb37b82e65158d
+  bytes: 58357
+  sha256: 5f40387db0ea3d4c6700348b984f80dd3d62edcd60c5a9e98625486a5a927fa0
 - file: scripts/dataset_1d/images/visualization/fit_dataset_combined/subplot_data_logy_list_fpr.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: fit_dataset_combined
-  bytes: 60716
-  sha256: 8323377d0789f717957f68785c1acb49bfbf6c3e3861ae13f20ad8c494299263
+  bytes: 68234
+  sha256: 9b5e457257a00e023feeb3fd832650a259965141432395a60336c3026a8b6628
 - file: scripts/dataset_1d/images/visualization/fit_dataset_combined/subplot_normalized_residual_map_list.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: fit_dataset_combined
-  bytes: 98902
-  sha256: 7ef13582f4245e0b7d85f246023a180ea35d8a340869311ce2b389ba7fb9137a
+  bytes: 100703
+  sha256: 203e37f1124d2b8f0fa2369e7f0b2546ef0538bb862e3abe74dc828cc16651bc
 - file: scripts/dataset_1d/images/visualization/fit_dataset_combined/subplot_residual_map_list.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: fit_dataset_combined
-  bytes: 97207
-  sha256: 70b68767c4317cba1bdbe93576599b0012103feb2ad0348d06cc1901c4c2ab14
+  bytes: 99052
+  sha256: 00baba9f5e7f48bc6495a08a7e1f177064d53787964dcdd8046ed83cae9a37e4
 - file: scripts/dataset_1d/images/visualization/fit_dataset_combined/subplot_residual_map_list_eper.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: fit_dataset_combined
-  bytes: 89440
-  sha256: 0e3bfcbc96bc7ce659b0316c3262de6d9bba3207602405de7e04b395170909f3
+  bytes: 101257
+  sha256: 1f58b4c55f054ca09b01dc2e5ad517a559592cbaf3a89739a24866737f385982
 - file: scripts/dataset_1d/images/visualization/fit_dataset_combined/subplot_residual_map_list_fpr.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: fit_dataset_combined
-  bytes: 87980
-  sha256: 659164ef639f2266d10e7ca1ec3ee49d3b13a8c2680b180b44b9d316588b0479
+  bytes: 91384
+  sha256: 8bd69f8366d6c1f47d3403fff7bd651c0579b50c0ce988f0ff23fba787357a84
 - file: scripts/dataset_1d/images/visualization/norm_5000/dataset/data.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: norm_5000/dataset
-  bytes: 13944
-  sha256: bc4c758d68de49c8b86e4dbc028020d47a263ec44ddc28e63dc17e2863dc9354
+  bytes: 13018
+  sha256: 6fb1c52cdee536c209a7e1f03248fcf6b2c4da40696889b6bd82710d128df25c
 - file: scripts/dataset_1d/images/visualization/norm_5000/dataset/data_eper.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: norm_5000/dataset
-  bytes: 20307
-  sha256: a43f3950ff1e7a6eeb8e12109e1be9a8b6a810bdb4440b29fa940fca0b18ad9f
+  bytes: 20386
+  sha256: 45e85bc7b60a8da26546b08d87c2ff1c67342988d97090f5831d052eb90486c8
 - file: scripts/dataset_1d/images/visualization/norm_5000/dataset/data_fpr.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: norm_5000/dataset
-  bytes: 20840
-  sha256: 7c3db159fae45067ea535bc11de6852123a18ddb620d88be66db6192c6fb4801
+  bytes: 20393
+  sha256: 60a7434641daaa208ff65008ee56ca2c6d0da02696cb71da9e15b1d2d9ddff1a
 - file: scripts/dataset_1d/images/visualization/norm_5000/dataset/data_logy.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: norm_5000/dataset
-  bytes: 16276
-  sha256: 1ca4c28fb0773b56bc6f9f91de9cfeb8815b22f982587692f6a37fc6248d34a3
+  bytes: 17434
+  sha256: 151e64f1804ce21cf753bbba469e772eb768e4c44abd741e54514645b6c00551
 - file: scripts/dataset_1d/images/visualization/norm_5000/dataset/data_logy_eper.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: norm_5000/dataset
-  bytes: 17974
-  sha256: b0432b22e29100ad98d336917bcaef27af4e869887ab82e6c6d603e9319cc0c7
+  bytes: 18146
+  sha256: 38819303ebee78e2a44a6a6aabab99b665d7db83dc2ee8228637f065571dd0fe
 - file: scripts/dataset_1d/images/visualization/norm_5000/dataset/data_logy_fpr.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: norm_5000/dataset
-  bytes: 25541
-  sha256: 2b2b083859fa5fe0b4e284467e0a4b55cd2ac78d36327e13b2121a83d9df6948
+  bytes: 30169
+  sha256: 75278fca317ac0ea760f7b49735c592d37c6d67eb5a0cef11f2f0463eaa776b2
 - file: scripts/dataset_1d/images/visualization/norm_5000/dataset/subplot_dataset.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: norm_5000/dataset
-  bytes: 48561
-  sha256: 608c167606821ce6f93ece87f4e12846520b02a9da359048bd1c91d2a418037d
+  bytes: 56463
+  sha256: d2152ee0f3c7623d2e38c27a30cbc02505538a9a36f42f871990b7dc940afed0
 - file: scripts/dataset_1d/images/visualization/norm_5000/dataset/subplot_dataset_eper.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: norm_5000/dataset
-  bytes: 64099
-  sha256: ea542a1dfd42bdbd441cad772b5a9b18d42fab02d7976730e6798605b17e52f3
+  bytes: 64769
+  sha256: a645eb07d186c20026adba6063599c0e1503c636a5382f6d5e432a51404f163b
 - file: scripts/dataset_1d/images/visualization/norm_5000/dataset/subplot_dataset_fpr.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: norm_5000/dataset
-  bytes: 71065
-  sha256: 401fa2c925d24221011f1b2ce5feeff4c56871898d65b78fa3666c484b9b020c
+  bytes: 78016
+  sha256: afcc5b96ab7374ec9342dee94e7926ee54309ad3b4136f2340e76b616374dbab
 - file: scripts/dataset_1d/images/visualization/norm_5000/fit_dataset/data.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: norm_5000/fit_dataset
-  bytes: 18589
-  sha256: d31b1b47c97785e1975680a86cbd64729b7c8e148141c3f4bfb858c0c8ec3c44
+  bytes: 17825
+  sha256: 0f29d937cdbfa121bc305df13de0b8d8ffdcf2f25ab16d82fad8a9dfae56ada8
 - file: scripts/dataset_1d/images/visualization/norm_5000/fit_dataset/data_eper.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: norm_5000/fit_dataset
-  bytes: 26380
-  sha256: 91384674faff8079841ad9c28bd3dd0ad3ae91e7551a2ffc941fcf5f630aedec
+  bytes: 26598
+  sha256: 3d4d25c674bce33484867ff0913498bc479c2f7bd7c78d9d3033765a05c91276
 - file: scripts/dataset_1d/images/visualization/norm_5000/fit_dataset/data_fpr.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: norm_5000/fit_dataset
-  bytes: 22747
-  sha256: 8924982e6df866e7a42fb59c0701ecefd8ef4629a1bb1407c534f2a7a3cca774
+  bytes: 22632
+  sha256: 02444739bff553ee7185997221ec7f0bf50834c0f325ab61c543f69b7b93d2b8
 - file: scripts/dataset_1d/images/visualization/norm_5000/fit_dataset/data_logy.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: norm_5000/fit_dataset
-  bytes: 21619
-  sha256: 86216cbe82b389a65b18fc3f4cd6a6b02097aa8ea1dc18add6bc6c42a350dcc6
+  bytes: 23004
+  sha256: 3a0a017005909961ceadea4e52c9ce4b15291ad1acec81b7ef9f1d3f7953dc75
 - file: scripts/dataset_1d/images/visualization/norm_5000/fit_dataset/data_logy_eper.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: norm_5000/fit_dataset
-  bytes: 26395
-  sha256: 8b75448b3759f4e667104b5941e30770f1ff69ecfa946e1e0d1b49edde8f7933
+  bytes: 26833
+  sha256: a6704f79dd1051bb59fda0095a09e3dcb89dc11fb8ca83a7fa361f84d6a23cbe
 - file: scripts/dataset_1d/images/visualization/norm_5000/fit_dataset/data_logy_fpr.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: norm_5000/fit_dataset
-  bytes: 27572
-  sha256: e36aa6e1accbebfd3656151fb9f5577ce4bb6997cc0f5f5da73e400131ac7419
+  bytes: 32504
+  sha256: 94e7e85d88971962a3f1e350ee9b4c3c0be13b217d95a733a978bb05f69ecd28
 - file: scripts/dataset_1d/images/visualization/norm_5000/fit_dataset/residual_map.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: norm_5000/fit_dataset
-  bytes: 36581
-  sha256: cf42f1f1d3bd591e71f78fba147a733171633c693021ac73ff6dd0be62920fab
+  bytes: 37892
+  sha256: 9f457a274fc608192da12139898ffd19ba54c751b9981e5304beeca11a17c982
 - file: scripts/dataset_1d/images/visualization/norm_5000/fit_dataset/residual_map_logy.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: norm_5000/fit_dataset
-  bytes: 20988
-  sha256: 87d0a7d6e74f502240b0ff3957848de448dcab2997f6e8b804edd4379449e8d0
+  bytes: 22626
+  sha256: 11c415171b9c0064cce49430f47394148052d497130bd9928530a65a8651b9c8
 - file: scripts/dataset_1d/images/visualization/norm_5000/fit_dataset/subplot_fit.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: norm_5000/fit_dataset
-  bytes: 155440
-  sha256: 909483febbe8d4e8948beda31150ad438f7c8c9ab1b6ddc0901bf9d2e4853f4d
+  bytes: 177683
+  sha256: d4d225f5284d92222175ef286a3b2f0056bfd607fafef75ad9eedf9338f7e912
 - file: scripts/dataset_1d/images/visualization/norm_5000/fit_dataset/subplot_fit_eper.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: norm_5000/fit_dataset
-  bytes: 170777
-  sha256: 07240ce19345555785cc2b0a3badbfa44a892cca2757ee53c3f564d982310739
+  bytes: 182844
+  sha256: b8157c0e49eac99e03c66687dddd17072024b6e6c04ff91e0102860b7932b704
 - file: scripts/dataset_1d/images/visualization/norm_5000/fit_dataset/subplot_fit_fpr.png
   producer: scripts/dataset_1d/visualization.py
   domain: dataset_1d
   source: norm_5000/fit_dataset
-  bytes: 164564
-  sha256: cf4ac4bb02fa86e5f2e74cbc46e03686f77efee258ed53e895c99437f3f7e576
+  bytes: 193813
+  sha256: 6960c372865bd395a8cdb7fa6f7254229653f43955871c9d2929e4b9e9cb27f8
 - file: scripts/imaging_ci/images/visualization/direct/chi_squared_map_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: direct
-  bytes: 29728
-  sha256: a0b05b073e8e8126035da2b2a47df43b1d175e2a027ef5d122adcf559af20fca
+  bytes: 27352
+  sha256: 0f39fabf4c57aff5503f5c4f6b0453e2ea4f63d92053744c54a8a42464cf0934
 - file: scripts/imaging_ci/images/visualization/direct/noise_map_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: direct
-  bytes: 14262
-  sha256: 7ca4f088165887a12d73fe8918e1fc9363b966281aba308cc2d35e4b06062e28
+  bytes: 14844
+  sha256: aac9b702fd0f4462b6dc6f268f928ac508856e2111a4f6be06ba61a40b8f1af1
 - file: scripts/imaging_ci/images/visualization/direct/normalized_residual_map_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: direct
-  bytes: 27748
-  sha256: 8a657b7f464c2eaddc5e357fe7ef9b5bb367c22dd6a1c9279ff0ffc1fd3b3125
+  bytes: 28772
+  sha256: 1d27db0c27c86b57d0e7769a47d4474ea7dd41b5801a958e9b3c6e55dd492ee4
 - file: scripts/imaging_ci/images/visualization/direct/post_cti_data_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: direct
-  bytes: 25075
-  sha256: 8eb33314adac2d6c5edc593a1426428b9c48410d93813ac363ba45d8d0861b67
+  bytes: 24986
+  sha256: dd0c033c06f40089e0304c8f0a59f4234e3223a4f8119c1e07d23657057999f3
 - file: scripts/imaging_ci/images/visualization/direct/pre_cti_data_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: direct
-  bytes: 15041
-  sha256: 56d7ab97638f911e24e17ec86fdb2cad55a6f8474384e146509677a7ddc609d0
+  bytes: 14431
+  sha256: ab6cb5771e69f5b6751553adb8a62cbf95f54b646b1f0b257dadfd751d233930
 - file: scripts/imaging_ci/images/visualization/direct/pre_cti_data_residual_map.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: direct
-  bytes: 43465
-  sha256: d6a5c5297bfd4b09a761ee032b73ea421fe31f87c93adea8d420b7b382c57089
+  bytes: 40991
+  sha256: f0fb0ee971ba00fc09d02caff4b3994ebd1d3ac0624585dbd703657336e84593
 - file: scripts/imaging_ci/images/visualization/direct/signal_to_noise_map_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: direct
-  bytes: 26740
-  sha256: ab7cff27ae1255f56aeeb76a571513786495ffc06d28db657c45abb2ccf8ea55
+  bytes: 27144
+  sha256: 6393aa5ea32703e0b77abfc7522bf9054276a0d49ba530b788d0c11502108f29
 - file: scripts/imaging_ci/images/visualization/direct/subplot_noise_scaling_map_dict.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: direct
-  bytes: 67416
-  sha256: c4680af98528672f9945402d8e9253a00fe2d244bc93acb18a1279ebff3f5d35
+  bytes: 81836
+  sha256: 362f77da58a12b2f5eaa3d28c56808cf8d94524fa46935fa69b7f7afe9f2e865
 - file: scripts/imaging_ci/images/visualization/parallel/norm_5000/dataset/data_fpr_non_uniformity.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel/norm_5000/dataset
-  bytes: 38982
-  sha256: 666d8b3d071477758c4822fab94ce4b195796c8a89a5c84b1cd8713427d6e1d0
+  bytes: 38053
+  sha256: 5d641f0438389f2ed96e804ca39d5ac62a52934d2f48ae6ac157fc0c4c163868
 - file: scripts/imaging_ci/images/visualization/parallel/norm_5000/dataset/data_logy_fpr_non_uniformity.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel/norm_5000/dataset
-  bytes: 41843
-  sha256: aa71c54e9aa871dbee5389158474487ebfa3828040a377d3357a66babb0f82c3
+  bytes: 42465
+  sha256: a6381dbf9666ffe973a83155ce9e33331e4b1c6ae06d8593cf9b1beda583dda9
 - file: scripts/imaging_ci/images/visualization/parallel/norm_5000/dataset/data_logy_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel/norm_5000/dataset
-  bytes: 17634
-  sha256: 646241b592b0db300c414ceced8a394599149a0e5510219a553ebe0105deb9dd
+  bytes: 17717
+  sha256: 3eda7139269afe49aefc8d88cde43539a2b651fb5a29d992636f02e7e49c87e4
 - file: scripts/imaging_ci/images/visualization/parallel/norm_5000/dataset/data_logy_parallel_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel/norm_5000/dataset
-  bytes: 18487
-  sha256: ade911fed14b31178aba35390e60dc6520e5802dbb4058b5c438fa4e2c6368d0
+  bytes: 19401
+  sha256: 01c1ec8b14ceea44ebfc3c5661ae9d467d23fa5b4c1e1eba7a23f7676f346f37
 - file: scripts/imaging_ci/images/visualization/parallel/norm_5000/dataset/data_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel/norm_5000/dataset
-  bytes: 17236
-  sha256: b3e25355d40285a8c88a6ff06243cd4f80cb5542efbd02930240534586cfccf1
+  bytes: 17163
+  sha256: c1d061f8bc1b806f27ec40cbfd0b2309b91bc2a0a63c7d09647cdb3c5ce41934
 - file: scripts/imaging_ci/images/visualization/parallel/norm_5000/dataset/data_parallel_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel/norm_5000/dataset
-  bytes: 14489
-  sha256: 1dea1e8a575f1cc1b4fc3f08c91c8d8dd986cd7367e8f620b4f6acf0961ec203
+  bytes: 14973
+  sha256: 5de14ed10ce23aa41f94dee0bdb72635e2c5b7e1de4480d5b40a34e4352681d7
 - file: scripts/imaging_ci/images/visualization/parallel/norm_5000/dataset/subplot_1d_ci_fpr_non_uniformity.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel/norm_5000/dataset
-  bytes: 115935
-  sha256: 9edf359c692575ffed7ed2074e50b825c881bc2c2606b38efa9f51c1cd091036
+  bytes: 123116
+  sha256: d62e089dec50e936d22d1c6942133bbc7978ff3e9f61bc6c1ce709ebf6640027
 - file: scripts/imaging_ci/images/visualization/parallel/norm_5000/dataset/subplot_1d_ci_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel/norm_5000/dataset
-  bytes: 61619
-  sha256: d34478ed4040e653db6baaf19756e3dcdd027ff43191944b0c98b82ce4c4e893
+  bytes: 68195
+  sha256: edd07ea39d4f0a99d9e69133d5b93633c09607657adbeaef3d3d92de49a3bcd3
 - file: scripts/imaging_ci/images/visualization/parallel/norm_5000/dataset/subplot_1d_ci_parallel_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel/norm_5000/dataset
-  bytes: 55605
-  sha256: 9c75dab8006048b4a7bed1fd64d0ca01c0ee9c9f0d175850cf6f99552c589701
+  bytes: 61573
+  sha256: 11fa97fd4fea9717e0c32a86b19c392aad595cf373027ea5b2f6f1e588a73c82
 - file: scripts/imaging_ci/images/visualization/parallel/norm_5000/dataset/subplot_data_binned.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel/norm_5000/dataset
-  bytes: 106271
-  sha256: 8855aba7fa9f88f343b699c177ed2363cdeb42c7eae04f4a700bf92ee172fd37
+  bytes: 106871
+  sha256: 6f43bf1f525774814a51f7aaf76c2f97e9c26805568037104024f127a814b9b3
 - file: scripts/imaging_ci/images/visualization/parallel/norm_5000/dataset/subplot_dataset.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel/norm_5000/dataset
-  bytes: 64639
-  sha256: 6dac69b1dea525fa70e44edbfcce10be59c6f1ce7c7b4932e2c33e44ecc99ffc
+  bytes: 66810
+  sha256: 8d5cc8f980645b02aa283826148485096c2fcf270639715c5a0f531ee419e593
 - file: scripts/imaging_ci/images/visualization/parallel/norm_5000/fit_dataset/data_logy_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel/norm_5000/fit_dataset
-  bytes: 22263
-  sha256: 0f9ec93b28eda31c8506a080f42cda2fffa65ce5302366cfe11bf7b4a944966b
+  bytes: 26621
+  sha256: 396b4ed0274f1cbc54db5b09958b922050c2d412a285ddbb4e7ccb2c716fc280
 - file: scripts/imaging_ci/images/visualization/parallel/norm_5000/fit_dataset/data_logy_parallel_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel/norm_5000/fit_dataset
-  bytes: 23824
-  sha256: 708b519e017e5118c6b07445463340cfe97ef318848af57d2e7bb848444094da
+  bytes: 24690
+  sha256: 1b638ffb09b2c434681057c8ba03cb8f181d9f5ef3d1640bb566b0544ae725f4
 - file: scripts/imaging_ci/images/visualization/parallel/norm_5000/fit_dataset/data_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel/norm_5000/fit_dataset
-  bytes: 26111
-  sha256: ca42f7f5c18bd6090cb4eca2f1b2328054e8f94d6b4f3e807ca73abffd20d41e
+  bytes: 26147
+  sha256: 8b77a65e4f0d81927be0e74e55ec7989f7f4db565cc56b5fd9928f3a06de9320
 - file: scripts/imaging_ci/images/visualization/parallel/norm_5000/fit_dataset/data_parallel_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel/norm_5000/fit_dataset
-  bytes: 19771
-  sha256: aa67d9c3a623f6ea72bc4cedfb149b3660a0e10890764070b427cc9acd522ec4
+  bytes: 19906
+  sha256: e2c51ea0cfa570dc695053a0436b8b2b7bfd2ea80f91b9828039f566a1134967
 - file: scripts/imaging_ci/images/visualization/parallel/norm_5000/fit_dataset/residual_map_logy_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel/norm_5000/fit_dataset
-  bytes: 22991
-  sha256: a77f3da7eb4001ed331abab8ef9cd70a7bebcbd6f376f22e2137738495a830e2
+  bytes: 23486
+  sha256: 8738ffa26ab56c9b478fa490d4c9f62d3705bbb8044f0bc8a91c3be957b163b1
 - file: scripts/imaging_ci/images/visualization/parallel/norm_5000/fit_dataset/residual_map_logy_parallel_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel/norm_5000/fit_dataset
-  bytes: 17539
-  sha256: f557eb9920705fb3d67c28053e8dcdb21e6f0964c1cd9a7a3fa16bc05f51b934
+  bytes: 17970
+  sha256: afbcd2928c93b458687b1c8ae40cfcbd86f2b98e79507802be1f0002b571945f
 - file: scripts/imaging_ci/images/visualization/parallel/norm_5000/fit_dataset/residual_map_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel/norm_5000/fit_dataset
-  bytes: 26832
-  sha256: 8b708994988ea5545aaa468cdd62d8562b79ae4a78835dcdc720615348c8c3c0
+  bytes: 26631
+  sha256: 4253e15c5f6fffbe607c6de4b0c8e2855716305c4e11528b154279d4b924b39f
 - file: scripts/imaging_ci/images/visualization/parallel/norm_5000/fit_dataset/residual_map_parallel_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel/norm_5000/fit_dataset
-  bytes: 27680
-  sha256: e493d840aa429fa9df09c0698ac0c9ad5528378bee816d87603a2b564854ff7f
+  bytes: 27709
+  sha256: 5dcde3f82b5cff50eb5b4b0d02a7d287dd79242f75b464b7b0dce465d2095a93
 - file: scripts/imaging_ci/images/visualization/parallel/norm_5000/fit_dataset/subplot_1d_fit_ci_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel/norm_5000/fit_dataset
-  bytes: 93723
-  sha256: 9442d828b6e8bc5838d8a9f90942dd6b00761697cb30fcc2c8aef0fb571080f5
+  bytes: 100657
+  sha256: 5e7c14438200ce839ab3ad64da5c620b2098ff0cc7688d4132e896a86a3c5d27
 - file: scripts/imaging_ci/images/visualization/parallel/norm_5000/fit_dataset/subplot_1d_fit_ci_parallel_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel/norm_5000/fit_dataset
-  bytes: 91047
-  sha256: c5bfd0994cbe04d48a8d007c3636a4214028402f25597149bd3d2496c9d298aa
+  bytes: 96623
+  sha256: 0939fe18c7a13d4398a1e78595e198ec1502bd515c93a94954744d465c9ad735
 - file: scripts/imaging_ci/images/visualization/parallel/norm_5000/fit_dataset/subplot_fit.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel/norm_5000/fit_dataset
-  bytes: 112617
-  sha256: 932d9fd304d6aad465cf0cf3477429df222bb90a3bdc541bc4e827889577e952
+  bytes: 155057
+  sha256: 2138b222140ab8add4c1f721b091724450e8132b81351f4dcbd9f066ce554949
 - file: scripts/imaging_ci/images/visualization/parallel_serial/dataset_combined/subplot_data_list_fpr_non_uniformity.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/dataset_combined
-  bytes: 96994
-  sha256: c9c66c46ad76cffd57392d7e1c6a1e8e2c3b5cd096594af4a4b4bf89c919327e
+  bytes: 94886
+  sha256: 50a63eac41e812c45e0cec10d4d97f9cd25710a20e53ad09ee9748a8d0f46c66
 - file: scripts/imaging_ci/images/visualization/parallel_serial/dataset_combined/subplot_data_list_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/dataset_combined
-  bytes: 29548
-  sha256: 8ec12b3159c591c514a18d04e1bb0cca928f4b1f06f4f7c5c559a8f546a1521b
+  bytes: 40308
+  sha256: 8772045390b0cb24337ce4ea6cba81dac377b868595edec7cbc4e8aabcfb13df
 - file: scripts/imaging_ci/images/visualization/parallel_serial/dataset_combined/subplot_data_list_parallel_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/dataset_combined
-  bytes: 34570
-  sha256: 027df54e9dc399c1390dbad45f1cd95f1447fa7c207e099b0972e660b8307dfd
+  bytes: 34014
+  sha256: f2249076ded6d00ebad7134f2b7b668b1fc43e408547801073f075d21c545351
 - file: scripts/imaging_ci/images/visualization/parallel_serial/dataset_combined/subplot_data_list_serial_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/dataset_combined
-  bytes: 30830
-  sha256: e1f59c41838eb711d99a2b0552889529921b91fe8485cc5e510f815ad0d7a6a0
+  bytes: 31607
+  sha256: ae932e9342eb0ff249aed4f2c92c9155d1dbc63b2c9afa87ef91282f14e5d592
 - file: scripts/imaging_ci/images/visualization/parallel_serial/dataset_combined/subplot_data_list_serial_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/dataset_combined
-  bytes: 40608
-  sha256: a88b2542e766711174c866d91d406f7f346268432b37941b0a813fbab6925e17
+  bytes: 37430
+  sha256: a3d35a3b07493530a49d64ef9d3effca8e617a4e64e719c4eee92ce6fb1d22c7
 - file: scripts/imaging_ci/images/visualization/parallel_serial/dataset_combined/subplot_data_logy_list_fpr_non_uniformity.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/dataset_combined
-  bytes: 98422
-  sha256: d398bfd177f3e49f45cdea122e4d712b27130c98bc56a3286b1011f3bd64ee57
+  bytes: 109531
+  sha256: 6d143f416f9fcb4340dd70680a875ca8ca2a125219b5cd1741872e90a7feca8c
 - file: scripts/imaging_ci/images/visualization/parallel_serial/dataset_combined/subplot_data_logy_list_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/dataset_combined
-  bytes: 34103
-  sha256: 5c4a3ca995a14a110fad5658f9b8bc35341645bbca6aa8c2b39c8389a7281f0d
+  bytes: 34090
+  sha256: c1e03639605c97b943aa8f73a5d060a6c6ecfc032cc9a8af4c421166238aa3e7
 - file: scripts/imaging_ci/images/visualization/parallel_serial/dataset_combined/subplot_data_logy_list_parallel_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/dataset_combined
-  bytes: 43595
-  sha256: 5287e1d82100966d9d16ef824dfb328d99d6411e5e586d5dbc28cd5ccc55ca7d
+  bytes: 49598
+  sha256: 9077ba9c5362f94a56b780e7f71e369d2731caa79ace70f38cd2edb7b67363e7
 - file: scripts/imaging_ci/images/visualization/parallel_serial/dataset_combined/subplot_data_logy_list_serial_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/dataset_combined
-  bytes: 29096
-  sha256: 71f034739e5e9555daa508fd267d9d14f8898c251aa5fa7543c58a1087a9f3e4
+  bytes: 35986
+  sha256: a8a15699f4eefb35ffb5d7eb6e958175b6f047b388a6471161328952f96e86df
 - file: scripts/imaging_ci/images/visualization/parallel_serial/dataset_combined/subplot_data_logy_list_serial_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/dataset_combined
-  bytes: 45000
-  sha256: 60b64c3f72c20fd8080db2d6419d70fe2f7a8c969ab238bab3c6c77c8e412f14
+  bytes: 54481
+  sha256: 4a757f7f5acd57282c4b61197932a923bfe6c9f8218172f8c76eaead8c4d5fc1
 - file: scripts/imaging_ci/images/visualization/parallel_serial/dataset_combined/subplot_dataset_list.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/dataset_combined
-  bytes: 147313
-  sha256: c7159d882bc31068d8a71a757d6b0d2d7edae5b62dcb4dae9a89aaded587123c
+  bytes: 155721
+  sha256: e9d7121e98618b6bbecb797b8dba793b4a28f2112177ac33a06dde544dbed0c4
 - file: scripts/imaging_ci/images/visualization/parallel_serial/fit_dataset_combined/subplot_chi_squared_map_list.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/fit_dataset_combined
-  bytes: 54622
-  sha256: ba50de18cbc229d61165e73522f7a40ee022669115a15f5a4d070b58f58ca681
+  bytes: 57126
+  sha256: 9e348f11fc3a78c4d85160ca532bbf80653785202077d9ece5691342019ac331
 - file: scripts/imaging_ci/images/visualization/parallel_serial/fit_dataset_combined/subplot_data_list_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/fit_dataset_combined
-  bytes: 51846
-  sha256: fda379a407f5995d7e1265740384129b61003cda1bafec56a81bcbf0814dd73d
+  bytes: 61993
+  sha256: 5a5725e73d6c98a76aeece3819e6612593adaa60b94e591423f7547d624a9879
 - file: scripts/imaging_ci/images/visualization/parallel_serial/fit_dataset_combined/subplot_data_list_parallel_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/fit_dataset_combined
-  bytes: 44969
-  sha256: 4512689f766371de8d5b91dfceba71260ca2cd1a892fc3a160cc93f1d75fddb2
+  bytes: 44112
+  sha256: 3a18e0f388ddc74b16416e3d913f51335b9341a92dec373e430e7e4e66460d80
 - file: scripts/imaging_ci/images/visualization/parallel_serial/fit_dataset_combined/subplot_data_list_serial_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/fit_dataset_combined
-  bytes: 47290
-  sha256: 64c3d92061b0cfd3573d239bf77fdecfe6b17ba0ffceadd9f9811b8db8394cdf
+  bytes: 48872
+  sha256: a1511800535c34986d169b048f299a413ea44dd66b80a1e5133a2f1d62dc893d
 - file: scripts/imaging_ci/images/visualization/parallel_serial/fit_dataset_combined/subplot_data_list_serial_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/fit_dataset_combined
-  bytes: 91622
-  sha256: 2642d117f66c4ae03abd7b0b5b30fba03f50ee962af6e02f797fb90600495972
+  bytes: 89264
+  sha256: 5b0ca543d9c4b4b2f14cf0ecfe686f9c1584a5371dcfa1484e3dbabf23626dd6
 - file: scripts/imaging_ci/images/visualization/parallel_serial/fit_dataset_combined/subplot_data_logy_list_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/fit_dataset_combined
-  bytes: 52796
-  sha256: 66b85a42acd64144cbc0107317cf333198ea49dc44145b6523659cb7dcef7f75
+  bytes: 76909
+  sha256: 2d9b54a2e83e009ddff0591db62b44c0a295a2b2ce8ead729cf0ee3e95613af6
 - file: scripts/imaging_ci/images/visualization/parallel_serial/fit_dataset_combined/subplot_data_logy_list_parallel_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/fit_dataset_combined
-  bytes: 51297
-  sha256: d540a2e74c79d6c7e878f802e2c71de3053d287acf564753b8f5565e4cc8d12c
+  bytes: 56441
+  sha256: 42c33cf5af38b7f4c937ab5fe2f6d6c0616a2f552db4c933f5797fe53e2a28d2
 - file: scripts/imaging_ci/images/visualization/parallel_serial/fit_dataset_combined/subplot_data_logy_list_serial_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/fit_dataset_combined
-  bytes: 47009
-  sha256: 1b5175c4fc855b646982564ac409c8f8f3962ed7d45ca03641867a37bc4e3bd1
+  bytes: 61735
+  sha256: 1d10fb51b14c114ea31aa3edf0e51c0a54ac491abe4bd891da13ab0a0e944650
 - file: scripts/imaging_ci/images/visualization/parallel_serial/fit_dataset_combined/subplot_data_logy_list_serial_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/fit_dataset_combined
-  bytes: 95704
-  sha256: c173a98022e463e45383c010ac229ea119757c068716031795f07463cffb0e33
+  bytes: 104599
+  sha256: c2b62c5dd30e7d467bfaf5d31fa6fdb03dc09816017f17b213147be8f86e2975
 - file: scripts/imaging_ci/images/visualization/parallel_serial/fit_dataset_combined/subplot_normalized_residual_map_list.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/fit_dataset_combined
-  bytes: 66338
-  sha256: 69df6f3f9a03875a51dc319bc5291d0d0d2ac3bc3f1a8841f96fbc7c4faf401d
+  bytes: 69357
+  sha256: 51b8560513d5e590db8b6512041ef69207d709002d78c12dbf3527f738483936
 - file: scripts/imaging_ci/images/visualization/parallel_serial/fit_dataset_combined/subplot_residual_map_list.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/fit_dataset_combined
-  bytes: 63466
-  sha256: 1078ddaba52bfc751a17d6f81b8e44c46ce216169066ccf02095c3dec5725291
+  bytes: 65966
+  sha256: f69cfb995333fb7e73027524a1efc9ee0717a09ee718656ad508f1ad6a40ac9f
 - file: scripts/imaging_ci/images/visualization/parallel_serial/fit_dataset_combined/subplot_residual_map_list_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/fit_dataset_combined
-  bytes: 58357
-  sha256: d9405e5f598da9aead177c5a861ff55c8adeae3765e9184077076e4eb0bb530c
+  bytes: 69403
+  sha256: d0e7015012a7a3c0d290d97d52507dffa54a8c129a29ff9f7f44d3b26e9e4535
 - file: scripts/imaging_ci/images/visualization/parallel_serial/fit_dataset_combined/subplot_residual_map_list_parallel_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/fit_dataset_combined
-  bytes: 62228
-  sha256: 8f5ed282a5a97b2c5f01053231c68e1e5f993c0bcd95f4269824dc6a386ef4dc
+  bytes: 63063
+  sha256: a21bf8c4a57b861af60069b1d9c92390d61e252c84ffd9d6334a54a48e151680
 - file: scripts/imaging_ci/images/visualization/parallel_serial/fit_dataset_combined/subplot_residual_map_list_serial_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/fit_dataset_combined
-  bytes: 65462
-  sha256: 31674832012ad99d81f6753a040f367be1d9522b9713036cffc0b7d4807e0203
+  bytes: 66384
+  sha256: 56f512371c7b6e7bb8ef2c8b83d78859b9fef686437fad9a071a3629bbfeaf2f
 - file: scripts/imaging_ci/images/visualization/parallel_serial/fit_dataset_combined/subplot_residual_map_list_serial_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/fit_dataset_combined
-  bytes: 80433
-  sha256: fe11e477adfe6e4a55289e20369d950d7ad8be3025b0a14668ce06759cd0c5be
+  bytes: 89701
+  sha256: d9288014aaf047a64ef5bb28861babd7ae611e7498755686b4a29c0e8ebae614
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/dataset/data_fpr_non_uniformity.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/dataset
-  bytes: 38797
-  sha256: f6a0312f82b7a2b71d0619d08857607b63e23ef50c2b8af8d6ed89471bd54c73
+  bytes: 38408
+  sha256: 9fa66d18024556f9f4a0de647b99502b41cd816344683b1114d6cd5f10dc691d
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/dataset/data_logy_fpr_non_uniformity.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/dataset
-  bytes: 41521
-  sha256: 9958f638f104152225a55ee6ea5f812ba079f6b6bcc989bea4729d303e1b9052
+  bytes: 42050
+  sha256: 16f94c70713e9aed5b645f2ce90648d8da836d712d6bcfce95ab9f8c2220f638
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/dataset/data_logy_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/dataset
-  bytes: 17429
-  sha256: 6bc29276b7eaa196f4bd70b8c8d74337ef377f9234f3849cea358568072a56a6
+  bytes: 17768
+  sha256: 9b9b282308f35ffa9cc90ba535b11eb6566d8e48d1af350ade03cbdbb946a0f2
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/dataset/data_logy_parallel_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/dataset
-  bytes: 19413
-  sha256: 708274680ed7178f7fbbed2d3492ab09d506a7681fb6489731ddd37dcf3c4633
+  bytes: 20086
+  sha256: 323fc8a9a300c9e205678f7a8acfbb8f80010eb140da6c538dafedf5000deff0
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/dataset/data_logy_serial_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/dataset
-  bytes: 14910
-  sha256: 6c2a3a5e3c36ee5a2cca69ee3ce9ad49c5b6c207a9c1584c8978e59a6e36324b
+  bytes: 21084
+  sha256: 26a0ea42d3089ef7619b1eaed3a6404c95ee204c5cf7d89a254e30b4456da4b7
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/dataset/data_logy_serial_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/dataset
-  bytes: 20648
-  sha256: acdf21b9f3bb3d7bc963b29c8e22ffbdcf8df523f33a87db8191f0c6223e8e3c
+  bytes: 21422
+  sha256: 7ff1e42babf90802d39850ef2fb19e56ba825823bb836a77c7f0a76d258f5c0a
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/dataset/data_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/dataset
-  bytes: 17550
-  sha256: d5c92bcdc9e5e71336a156606f827eaac7f03efe0c44945eda6323e91d1c7970
+  bytes: 17817
+  sha256: f62970d2aa02425e80ac57155f0d9e4b36fda1ad8b5dcfa73c552413a41dffef
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/dataset/data_parallel_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/dataset
-  bytes: 15277
-  sha256: 3800d9da549f52c432626d6157d19ce288da8f5125bb9fddf81ded96cfaa8207
+  bytes: 15425
+  sha256: 717b2b8b8d9aa379b42dc08aa6a8bf43be45f9f96aacee7d1e66d66786fb1b71
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/dataset/data_serial_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/dataset
-  bytes: 16433
-  sha256: 7f39320843135432a1249ccf9490246ca6f3a3d7605821e053e2b18c03bd21ee
+  bytes: 17637
+  sha256: d8a27bca1e979aa059521cff324023f3e3fb3e63596f1b9f960448104afd5c76
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/dataset/data_serial_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/dataset
-  bytes: 17647
-  sha256: 1dba0e88e788efd731adc5e59b5130fea90db6b625fc349014dd46ee5eaed20a
+  bytes: 16964
+  sha256: 14e8296f76d899e7a8cb5849e820f4a550ac1639c43e438f918419b33f7f121e
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/dataset/subplot_1d_ci_fpr_non_uniformity.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/dataset
-  bytes: 116166
-  sha256: b1d01fe54da3d90cb5322c4739e742dddb1b4dae4b937a715cd5c8e60eb43621
+  bytes: 124304
+  sha256: ab3c0ac541ba054e504ff3abc15b71be0244de8b8243bbb89cc7af727c993615
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/dataset/subplot_1d_ci_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/dataset
-  bytes: 63430
-  sha256: aea93766623eb2671a34079d188b8e1adc8e37898978e1b61b7238c78303de98
+  bytes: 69037
+  sha256: e7a7ec10af0178ac5fef36f9df1f5a2f9cba1d5e15892a34d302cc03a0bb05b1
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/dataset/subplot_1d_ci_parallel_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/dataset
-  bytes: 56444
-  sha256: 3d597f18aa4360ff8fc5f523f39d3b7d6f87e1e2d4ee67688e2c1c854ccb9970
+  bytes: 62173
+  sha256: 7e83469507e28c3d114ac9f7722502582775da43a69fee6efa424b2f4ddc7507
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/dataset/subplot_1d_ci_serial_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/dataset
-  bytes: 64802
-  sha256: 6b06b7bebff01c3c18ec8d3d8d369f9efc8239dfc0063345e779a5606f528287
+  bytes: 74234
+  sha256: ea24691999f8cd04ef3220e3a6996661c5501f2c8f88e97a23353420e1ece90c
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/dataset/subplot_1d_ci_serial_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/dataset
-  bytes: 92725
-  sha256: 0d95696f9225ec0402fd8fe97d4eb4b6706aa40550c641cc501f04fc2243e19e
+  bytes: 99443
+  sha256: 4902c66d38aa70dfd7ec505f5c7b0155186b6beb8561b65e6d317af3d1029f4f
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/dataset/subplot_data_binned.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/dataset
-  bytes: 107990
-  sha256: d67bf00ead389c0df41a6709b99d837166fc870f1bffddc537fb883db7ccde42
+  bytes: 107664
+  sha256: 8fdf084d403db88dcbe57fbdb6c445d7a4905ea88d7b88577af546242ccc417c
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/dataset/subplot_dataset.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/dataset
-  bytes: 86466
-  sha256: 975ef6a071ac294eaff64825c4d364b338fdcff8ae22d2696a71a232611343f9
+  bytes: 92263
+  sha256: e66fd6b0fc5f95497d6d27f5366e22aa70de1a3e4c1fb1a4310c7bdd794b4ee4
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/fit_dataset/data_logy_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/fit_dataset
-  bytes: 23395
-  sha256: 60f9fe45675a368ff07f5ca5222d2bc8027062b027968e8281da58398cf7e473
+  bytes: 28716
+  sha256: a5698a01de5b959154fccb71c152f1a5b0994c60c59937daef8219bef7239b08
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/fit_dataset/data_logy_parallel_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/fit_dataset
-  bytes: 23792
-  sha256: c1bd51c5a1029d1bb1356b1c5ef92df04362fd2d02c7211c0a144b965d77d83f
+  bytes: 24755
+  sha256: 89cbe518227d48b86a3eddc2d30e15a7ee03dd7e1d377c3d9a61c46e9f6bcfa5
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/fit_dataset/data_logy_serial_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/fit_dataset
-  bytes: 19636
-  sha256: bd9ee6a0274e42ddab8215c1516c4052439d135ba7d2e345ff9e2975749e22b3
+  bytes: 20861
+  sha256: ff821f2a9a56bc6da1ebb9ea522a6b15285b42ddff7e63813cba985f7b873288
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/fit_dataset/data_logy_serial_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/fit_dataset
-  bytes: 39268
-  sha256: 4515a131b9e63befab29dce238ddebc1c3ecd8a16abc769f064c6d3402380e18
+  bytes: 40001
+  sha256: 1caf6368d63f102d383f506630c643a94b0bc38cf8c6d76d1002ec6a7d4519d9
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/fit_dataset/data_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/fit_dataset
-  bytes: 26075
-  sha256: 5914a9cf26297226098e44633792ea2f6162074bbc2e59f1ef3e907d658c109b
+  bytes: 26331
+  sha256: 1561bab4e80c18913e0fd99c5ec2b0881fc4491c716223267c094d7128d8dff4
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/fit_dataset/data_parallel_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/fit_dataset
-  bytes: 19651
-  sha256: 942ffeab45d40bbadb2ab86371fcbadf4bcb4254a5f3ba490b965da5e5222c4d
+  bytes: 19817
+  sha256: a62d4fc011fff61ade872562aa0b722649d4ac260e5680d5acf89142b171f3fa
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/fit_dataset/data_serial_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/fit_dataset
-  bytes: 24717
-  sha256: 16419888171f56d5c202e55e9c2024dea29d04c8c5465d12392c98bd02a245ff
+  bytes: 26119
+  sha256: 15c3958164400fa96085c2deed7682298a4873bee8313048b9bcf0cabc3af350
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/fit_dataset/data_serial_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/fit_dataset
-  bytes: 36019
-  sha256: ba909053c885a5cf2b055cb54ba4b2cf79bcea820a6e9b4d5be79d03c64c1287
+  bytes: 35283
+  sha256: b242268444b980516784dd4134377437033e09d26e9bd01b1f8540f1d6122ac1
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/fit_dataset/residual_map_logy_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/fit_dataset
-  bytes: 29653
-  sha256: 8d0f8c9c4344281d8023336aac42e3b52c4f2a988cdecdaa26e7718e79c22da0
+  bytes: 30555
+  sha256: 19b216c0550607a90b8de233f6403fd0da414c639b2dbbfb81c38424189ea62b
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/fit_dataset/residual_map_logy_parallel_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/fit_dataset
-  bytes: 22737
-  sha256: a5e87d190afb3556eb57f902bdd7381263be141f5335e9e60a61a9c3d082ae8f
+  bytes: 28236
+  sha256: b9a53997cbb63a5c5fb724e14cb8ae1d20ead114ae181d701c88f44fad003713
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/fit_dataset/residual_map_logy_serial_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/fit_dataset
-  bytes: 14081
-  sha256: a52750c12849b6684cddfd2aaece786a707931456a4d876d4e9623432a07ff37
+  bytes: 15180
+  sha256: 16ea1d75da1b92e2bd365d5bb9d7851f0194ccb2900387d73207e1d836182498
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/fit_dataset/residual_map_logy_serial_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/fit_dataset
-  bytes: 23654
-  sha256: 7e2e90ed2ccb18a0f1ce881c86243cf9508628007a25709e86bb897e2d603fa8
+  bytes: 23631
+  sha256: 973e1a261491c91f22a23d78256377bf344e40f7e478518c9b225e1c421ba938
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/fit_dataset/residual_map_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/fit_dataset
-  bytes: 27726
-  sha256: f9a08bd90da9b685dae52c806a20cb1ca292bee5ebf74eab2de248dcbbc5bcd9
+  bytes: 28283
+  sha256: 7cab650388fe2e0b5220033f1cc1618c7b8a072266117fc5e2c4683e84491984
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/fit_dataset/residual_map_parallel_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/fit_dataset
-  bytes: 25974
-  sha256: 07461a948dcd8c7046ff693433751ca6edc84182f4134d4b87bf49b80005ec05
+  bytes: 26814
+  sha256: 60f4e896eb1b16b24df1e217759b19738281bf4ce10908dbfba3d756ecf3ef57
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/fit_dataset/residual_map_serial_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/fit_dataset
-  bytes: 26786
-  sha256: cfe0627ab2db59c5b7836ea190c18cdd4fe3214728e3d1be4c9fb82e2824e315
+  bytes: 27764
+  sha256: 329a84460268847b7e5994d3812301e62aab47e278b8e5e990f85f8393aa54bc
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/fit_dataset/residual_map_serial_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/fit_dataset
-  bytes: 37266
-  sha256: 7c58ba2fe9e780b68ab4707988da50d35d9db507e5bd757280ab3d2ecf99333f
+  bytes: 37201
+  sha256: 92ff9af17205b511d61281f2ddc1a03ac67e69533bceacafc789ab1c4a777a57
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/fit_dataset/subplot_1d_fit_ci_parallel_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/fit_dataset
-  bytes: 96188
-  sha256: 09b2d4635f4a00760afe333dccbdc52c04d27bcd14af6a506e810810abd201e4
+  bytes: 103729
+  sha256: 4aa7841dd1097b053fc06adf98e3c1b0112cdc086d14113c85f34307dfed197d
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/fit_dataset/subplot_1d_fit_ci_parallel_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/fit_dataset
-  bytes: 87208
-  sha256: c3ee6fb935e55d47b40620e022aabe2b82eb5c0ef4db7aba770a8878ff1c7cea
+  bytes: 95047
+  sha256: 692708e5456acd146e603d52ee7a7779d912f9934e2152c96a4713e82acb9ede
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/fit_dataset/subplot_1d_fit_ci_serial_eper.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/fit_dataset
-  bytes: 91341
-  sha256: edc7c2b8f597277e0163fee6439e5e9ddb9d989e4c3c489a144fb6c39ecd0060
+  bytes: 100329
+  sha256: e02f371a901e49a04a343db47cf2ee2368782443f21fe5c85659821aa3d9e6d3
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/fit_dataset/subplot_1d_fit_ci_serial_fpr.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/fit_dataset
-  bytes: 133507
-  sha256: 105573ef46004142d836a81884b1d9ac1c90c656ce573ab72a342fc4f6ec37af
+  bytes: 138785
+  sha256: c4f925fd8532d27f411e7fa45e39cfb5bedd038cc3b9f19aa5ac7c41493c23cc
 - file: scripts/imaging_ci/images/visualization/parallel_serial/norm_5000/fit_dataset/subplot_fit.png
   producer: scripts/imaging_ci/visualization.py
   domain: imaging_ci
   source: parallel_serial/norm_5000/fit_dataset
-  bytes: 134761
-  sha256: 1cc67bd03ac9b3c9deebbe747ccaa29fd77e65dc934c71d9ed7f40386e76a9ee
+  bytes: 189614
+  sha256: 9ac860834ba7e0b602a132502e1a37368e2655cacd7ace779bf3c469258a8af2
