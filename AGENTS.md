@@ -178,7 +178,7 @@ Two readers depend on this repo's layout:
   `eyes-critique` and route through intake / start_dev like any other change.
 - **The PyAutoEyes dashboard** reads the tracked `gallery/viz_manifest.yaml` and links to the
   PNGs; `render.yml` fires `repository_dispatch: eyes-refresh` at PyAutoLabs/PyAutoEyes after
-  each release re-render.
+  each re-render.
 
 Keep that layout when adding domains.
 
@@ -197,8 +197,12 @@ pytest scripts/misc/test -q
 plus `lychee` on every `*.md`, then every producer runs for real followed by
 `gallery_build.py --check` (a PR that changes the figure set without regenerating `GALLERY.md`
 fails). `render.yml` (manual + `repository_dispatch: pyautocti-release`) installs arcticpy and
-the released PyPI stack, re-renders, commits PNGs + `GALLERY.md` + `gallery/viz_manifest.yaml`
-back as `github-actions[bot]` `[skip ci]`, then dispatches `eyes-refresh` to PyAutoEyes (token:
+then one of two stacks: with no version (the default manual dispatch) the library mains, checked
+out under `_libs/` and installed as `lint.yml` does, because autocti is not yet on the Hands
+release train and the newest PyPI autocti predates `autonerves`; with a version (the
+`autocti_version` input, or a release dispatch's payload) that released PyPI stack. It
+re-renders, commits PNGs + `GALLERY.md` + `gallery/viz_manifest.yaml` back as
+`github-actions[bot]` `[skip ci]`, then dispatches `eyes-refresh` to PyAutoEyes (token:
 a per-step `pyautolabs-bot` GitHub App token from `vars.APP_CLIENT_ID` / `secrets.APP_PRIVATE_KEY`,
 scoped to PyAutoEyes; a missing credential fails the job).
 

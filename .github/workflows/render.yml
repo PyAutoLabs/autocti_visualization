@@ -1,11 +1,23 @@
 # render.yml — manual + on-PyAutoCTI-release figure refresh.
 #
-# Installs the RELEASED stack from PyPI (what users get), runs every producer via
-# `gallery/gallery_run.sh --all`, rebuilds GALLERY.md and the tracked figure
-# manifest `gallery/viz_manifest.yaml`, commits the refreshed PNGs + GALLERY.md +
-# manifest back to main as `github-actions[bot]` with `[skip ci]`, and then fires a
-# `repository_dispatch` (`eyes-refresh`) at PyAutoLabs/PyAutoEyes so the organ's
-# cross-project dashboard re-reads the manifest.
+# Installs a PyAuto stack, runs every producer via `gallery/gallery_run.sh --all`,
+# rebuilds GALLERY.md and the tracked figure manifest `gallery/viz_manifest.yaml`,
+# commits the refreshed PNGs + GALLERY.md + manifest back to main as
+# `github-actions[bot]` with `[skip ci]`, and then fires a `repository_dispatch`
+# (`eyes-refresh`) at PyAutoLabs/PyAutoEyes so the organ's cross-project dashboard
+# re-reads the manifest.
+#
+# Two install modes, chosen by VERSION (the `autocti_version` input, else the
+# `pyautocti-release` payload's `version`):
+#   - blank (the default manual dispatch): the library MAINS (PyAutoNerves,
+#     PyAutoFit, PyAutoArray, PyAutoCTI), checked out under `_libs/` and installed
+#     exactly as lint.yml does. autocti is not yet on the Hands release train
+#     (Hands release.yml: "the CTI release train is not yet wired") and the newest
+#     PyPI autocti predates autonerves, which the producers import, so a PyPI
+#     render cannot work today.
+#   - set: the RELEASED stack from PyPI, `autocti[optional]==$VERSION` (what users
+#     get). Once autocti is on the release train, its `pyautocti-release` dispatch
+#     carries a version and renders the released stack.
 #
 # Triggers:
 #   - workflow_dispatch (manual, GitHub UI)
@@ -27,7 +39,7 @@ on:
   workflow_dispatch:
     inputs:
       autocti_version:
-        description: "PyPI autocti version to render with (blank = latest)"
+        description: "PyPI autocti version to render with (blank = library mains)"
         required: false
         default: ""
   repository_dispatch:
@@ -43,11 +55,43 @@ jobs:
     env:
       NUMBA_CACHE_DIR: /tmp/numba_cache
       MPLCONFIGDIR: /tmp/matplotlib
+      # Blank = render the library mains; set = render that PyPI release.
+      VERSION: ${{ inputs.autocti_version || github.event.client_payload.version || '' }}
+      LIBS: ${{ github.workspace }}/_libs
     steps:
       - name: Checkout autocti_visualization
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Mains mode only. The library checkouts sit under `_libs/` (gitignored; the
+      # commit step adds only scripts/*/images, GALLERY.md and the manifest, and
+      # gallery_run.sh / gallery_build.py scan only scripts/*), because
+      # actions/checkout requires paths inside the workspace.
+      - name: Checkout PyAutoNerves (mains mode)
+        if: env.VERSION == ''
+        uses: actions/checkout@v4
+        with:
+          repository: PyAutoLabs/PyAutoNerves
+          path: _libs/PyAutoNerves
+      - name: Checkout PyAutoFit (mains mode)
+        if: env.VERSION == ''
+        uses: actions/checkout@v4
+        with:
+          repository: PyAutoLabs/PyAutoFit
+          path: _libs/PyAutoFit
+      - name: Checkout PyAutoArray (mains mode)
+        if: env.VERSION == ''
+        uses: actions/checkout@v4
+        with:
+          repository: PyAutoLabs/PyAutoArray
+          path: _libs/PyAutoArray
+      - name: Checkout PyAutoCTI (mains mode)
+        if: env.VERSION == ''
+        uses: actions/checkout@v4
+        with:
+          repository: PyAutoLabs/PyAutoCTI
+          path: _libs/PyAutoCTI
 
       - name: Set up Python 3.12
         uses: actions/setup-python@v5
@@ -55,21 +99,35 @@ jobs:
           python-version: "3.12"
 
       # `import autocti` hard-requires arcticpy (a source-only C++ sdist), installed by
-      # PyAutoHeart's canonical composite action before the PyPI stack.
+      # PyAutoHeart's canonical composite action before the PyAuto stack.
       - name: Install arcticpy
         uses: PyAutoLabs/PyAutoHeart/.github/actions/install-arcticpy@main
 
-      - name: Install the released stack from PyPI
-        env:
-          VERSION: ${{ inputs.autocti_version || github.event.client_payload.version || '' }}
+      - name: Install the PyAuto stack (library mains, or a PyPI release)
         run: |
-          python -m pip install --upgrade pip
-          if [ -n "$VERSION" ]; then
-            pip install "autocti[optional]==$VERSION"
+          python -m pip install --upgrade pip setuptools wheel
+          if [ -z "$VERSION" ]; then
+            # Mains mode, as lint.yml: install each checkout in dependency order (pulls
+            # the full third-party dep chain); PYTHONPATH, exported for later steps,
+            # still resolves the PyAuto* imports from the checkouts.
+            for r in PyAutoNerves PyAutoFit PyAutoArray PyAutoCTI; do
+              pip install "$LIBS/$r[optional]"
+            done
+            echo "PYTHONPATH=$LIBS/PyAutoNerves:$LIBS/PyAutoFit:$LIBS/PyAutoArray:$LIBS/PyAutoCTI" >> "$GITHUB_ENV"
           else
-            pip install "autocti[optional]"
+            pip install "autocti[optional]==$VERSION"
           fi
-          python -c "import autocti; print('autocti', autocti.__version__)"
+
+      - name: Report where the stack came from
+        run: |
+          if [ -z "$VERSION" ]; then
+            for r in PyAutoNerves PyAutoFit PyAutoArray PyAutoCTI; do
+              echo "$r main@$(git -C "$LIBS/$r" rev-parse --short HEAD)"
+            done
+          else
+            echo "PyPI autocti==$VERSION"
+          fi
+          python -c "import autocti; print('autocti', autocti.__version__, 'from', autocti.__file__)"
 
       - name: Render figures + rebuild GALLERY.md + gallery/viz_manifest.yaml
         run: bash gallery/gallery_run.sh --all
@@ -83,9 +141,18 @@ jobs:
             echo "No changes — exiting clean."
             exit 0
           fi
-          version=$(python -c "import autocti; print(autocti.__version__)")
-          git commit -m "chore: re-render gallery with autocti ${version} [skip ci]
+          if [ -z "$VERSION" ]; then
+            # A source checkout's autocti.__version__ is a stale stamp; name the SHAs.
+            sha() { git -C "$LIBS/$1" rev-parse --short HEAD; }
+            stack="PyAutoCTI main@$(sha PyAutoCTI)"
+            body="Stack: PyAutoNerves@$(sha PyAutoNerves) PyAutoFit@$(sha PyAutoFit) PyAutoArray@$(sha PyAutoArray) PyAutoCTI@$(sha PyAutoCTI) (library mains)."
+          else
+            stack="autocti $(python -c "import autocti; print(autocti.__version__)")"
+            body="Stack: PyPI autocti==${VERSION}."
+          fi
+          git commit -m "chore: re-render gallery with ${stack} [skip ci]
 
+          ${body}
           Triggered by ${{ github.event_name }} (run ${{ github.run_id }})."
           git push origin HEAD:main
 
